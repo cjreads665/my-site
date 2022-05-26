@@ -3,7 +3,9 @@ import {Link} from 'react-router-dom'
 const Navbar = () => {
   return (
         <nav className='flex justify-between w-full '>
-            <span className='font-freehand text-4xl w-1/6'>CJ</span>
+          <Link to='/'>
+          <span className='font-freehand text-4xl w-1/6'>CJ</span>
+          </Link>
             <ul className='flex w-[90%]  justify-around items-center px-2'>
                <Link to='/'>
                <li>HOME</li>
