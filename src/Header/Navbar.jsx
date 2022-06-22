@@ -1,22 +1,28 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 const Navbar = () => {
   return (
         <nav className='flex justify-between w-full '>
-          <Link to='/'>
+          <NavLink to='/'>
           <span className='font-freehand text-4xl w-1/6'>CJ</span>
-          </Link>
+          </NavLink>
             <ul className='flex w-[90%]  justify-around items-center px-2'>
-               <Link to='/'>
+               <NavLink to='/'  style={({ isActive }) => ({
+              color: isActive ? '#08ff17' : '',
+            })} >
                <li>HOME</li>
-               </Link>
-                <a href="https://docs.google.com/document/d/e/2PACX-1vTiNPvUWTpeaQenNPeHraaGVRnOLSHogaCdYdk-derpoNUQ6yB7TGsvK3XtWGbgYnay3bZiRsvYyRje/pub">
+               </NavLink>
+                <a href="https://docs.google.com/document/d/e/2PACX-1vTiNPvUWTpeaQenNPeHraaGVRnOLSHogaCdYdk-derpoNUQ6yB7TGsvK3XtWGbgYnay3bZiRsvYyRje/pub"
+                target='_blank'
+                >
                 <li>RESUME</li>
                 </a> 
                 <li>PROJECTS</li>
-                <Link to='/about'>
+                <NavLink to='/about' style={({ isActive }) => ({
+              color: isActive ? '#08ff17' : '',
+            })}>
                 <li>ABOUT</li>
-                </Link>
+                </NavLink>
             </ul>
         </nav>
   )

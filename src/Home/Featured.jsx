@@ -22,7 +22,7 @@ const Featured = () => {
   ]
   return (
     <div className='mt-10'>
-      <h1 className='text-5xl my-8'>featured projects</h1>
+      <h1 className='text-5xl my-8'> <span className="text-[#08ff17]">featured</span> projects</h1>
       <p className='leading-relaxed text-xl p-1'>
         some of my projects i'm currently working on/completed.
 </p>

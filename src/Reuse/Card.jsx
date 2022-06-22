@@ -3,9 +3,9 @@ import React,{useEffect} from 'react'
 const Card = ({link,image,name,description,glink,dlink}) => {
     
   return (
-<div className="text-white border border-1 border-white mt-8 p-4 h-[40%]">
+<div className="text-white border border-1 border-white mt-8 p-4 h-[40%] card mx-2">
 <img src={image} alt={name} className='mb-2' />
-<h3 className='text-2xl mb-4 text-[#08ff17]'>{name}</h3>
+<h3 className='text-2xl mb-4 font-bold italic'>{name}</h3>
 <p>
     {description}
 </p>
