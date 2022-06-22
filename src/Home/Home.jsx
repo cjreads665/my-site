@@ -7,12 +7,20 @@ const Home = () => {
         building quality products that drive{" "}
         <span className="text-[#08ff17]">results</span>
       </h1>
-      <p className="leading-relaxed text-xl p-1">
-        Hello! I'm Shahid. You can call me CJ. I'm a Web/UI developer. I
+      <section className="leading-relaxed text-xl p-1">
+      <p>
+        Hello!👋 <br />
+        <img src="https://media.giphy.com/media/jOmQmJkjcvB3Bc8CRb/giphy.gif" alt="" className="mt-4" />
+        <br/> I'm Shahid(aka CJ), a Web/UI developer. <br /> I
         specialize in Front End technologies such as React that provide great
         user experience.
       </p>
-      <p className="leading-relaxed text-xl p-1">Currently exploring the web3 space.</p>
+      <p className="mt-4">
+        I also lead a group of developers to create open-source projects and learn new skills.
+      </p>
+      <p>Currently exploring the web3 space.</p>
+      </section>
+      
       <Featured></Featured>
     </div>
   );

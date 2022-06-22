@@ -3,7 +3,7 @@ import Card from '../Reuse/Card'
 const Featured = () => {
   const projects = [
     {
-      name: 'Distance Maper',
+      name: 'Distance Mapper',
       description : 'Distance-Mapper is a tool which helps in calculating distance between two locations. A route between the places is shown on the map.',
       image:'https://user-images.githubusercontent.com/73706017/172362970-3f5d1549-81f1-4eaf-8b88-4345246362d0.png',
       link: "https://crypto-web-gold.vercel.app/",
