@@ -8,18 +8,16 @@ const Home = () => {
         building quality products that drive{" "}
         <span className="text-[#08ff17]">results</span>
       </h1>
-      <section className="leading-relaxed text-xl p-1">
-      <p>
-        Hello!👋 <br />
-        <img src="https://media.giphy.com/media/jOmQmJkjcvB3Bc8CRb/giphy.gif" alt="" className="mt-4" />
+      <section className="leading-relaxed text-xl p-1 flex flex-col md:flex-row md:justify-between w-full">
+      <img src="https://media.giphy.com/media/jOmQmJkjcvB3Bc8CRb/giphy.gif" alt="" className="mt-4 text-center" />
+      <p className="md:ml-8">
+        <br />
+        Hello!👋 
         <br/> I'm Shahid(aka CJ), a Web/UI developer. <br /> I
         specialize in Front End technologies such as React that provide great
         user experience.
-      </p>
-      <p className="mt-4">
-        I also lead a group of developers to create open-source projects and learn new skills.
-      </p>
-      <p>Currently exploring the web3 space.</p>
+
+      Currently exploring the web3 space.</p>
       </section>
       
       <Featured></Featured>
