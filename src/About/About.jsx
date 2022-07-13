@@ -2,7 +2,7 @@ import React from 'react'
 import profilepic from '../images/my-site-pic.png'
 const About = () => {
   return (
-    <div className='mt-4 flex flex-col min-h-screen h-[60rem] justify-around'>
+    <div className='mt-4 flex flex-col min-h-screen lg:h-[60rem] justify-around'>
         <h2 className='text-5xl text-center'>im the IT guy your manager sends</h2>
         <div className='flex justify-center'>
         <img src={profilepic} alt="cool-profile-pic" className='w-[100%] md:w-[60%] lg:w-[40%]' />
