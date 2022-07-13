@@ -2,6 +2,14 @@
   box-shadow: 8px 10px;
 }
 
+.card:hover{
+  box-shadow: 8px 10px #08ff17;
+
+}
+.card:hover .cardHead{
+  background-color: #08ff17;
+}
+
 .selected{
   color:'red'
 }

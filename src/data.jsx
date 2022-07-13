@@ -139,6 +139,30 @@ const allProjects = [
     dlink: "https://clock-js69.netlify.app/",
     tech: ["html", 'css', 'javascript'],
   },
+  {
+    name: "Linux Commands Documentation",
+    description:
+      "A website for simple commads in Linux. ",
+    glink: "https://codepen.io/cjreads665/pen/ExZBqpw",
+    dlink: "https://codepen.io/cjreads665/pen/ExZBqpw",
+    tech: ["html", 'css'],
+  },
+  {
+    name: "Contact Form",
+    description:
+      "A contact me form with Airtel contact us form as a reference. ",
+    glink: "https://codepen.io/cjreads665/pen/bGBXrqY",
+    dlink: "https://codepen.io/cjreads665/pen/bGBXrqY",
+    tech: ["html", 'css'],
+  },
+  {
+    name: "Tribute Page",
+    description:
+      "A tribute page for Dr. Norman Borlaug for his war against world hunger. ",
+    glink: "https://codepen.io/cjreads665/pen/eYBXzpo",
+    dlink: "https://codepen.io/cjreads665/pen/eYBXzpo",
+    tech: ["html", 'css'],
+  },
 ];
 
 export { top, allProjects };
