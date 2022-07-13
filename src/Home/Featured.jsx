@@ -50,7 +50,7 @@ const Featured = () => {
       <p className="leading-relaxed text-xl p-1">
         some of my projects i'm currently working on/completed.
       </p>
-      <div className="mt-4">
+      <div className=" flex flex-col lg:grid items-center lg:ml-8 lg:grid-cols-3 my-4">
         {Children.toArray(
           projects.map((obj) => {
             return (

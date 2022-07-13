@@ -15,7 +15,7 @@ const About = () => {
           <br />
           <br />
           In 2022, he founded <strong>Server[200]Success</strong>, a discord server dedicated to help beginners create and contribute to open-source projects.
-          The aim of the server is to equip aspiring developers with the essential skills and apply them in real world projects, something the author wanted when he first strated out.
+          The aim of the server is to equip aspiring developers with the essential skills and apply them in real world projects, something the author wanted for himself when he first started out.
           <br />
           <br />
           He is currently pursing Bachelors in Computer Applications and is set to graduate in 2022.
