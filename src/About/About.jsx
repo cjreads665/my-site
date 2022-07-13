@@ -20,6 +20,8 @@ const About = () => {
           <br />
           He is currently pursing Bachelors in Computer Applications and is set to graduate in 2022.
         </p>
+        <br />
+        You can reach out to him through email {'->'} shahdi.alam57@gmail.com
     </div>
   )
 }
