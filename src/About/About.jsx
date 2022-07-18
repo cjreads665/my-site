@@ -11,7 +11,7 @@ const About = () => {
           Md Shahid Alam did a minor course in Java when he was 13 and since then was fascinated by the world of technology. Despite being unable to afford a PC, he learnt the basics using pen and paper till he got his first Mac in his sophomore year.
           <br />
           <br />
-          He is currently working at BizPilot Financial Pvt Ltd as a Software Developer and helps the organization in backend, front end and DevOps.
+          He is currently working at BizPilot Financial Pvt Ltd as a Software Engineer.
           <br />
           <br />
           In 2022, he founded <strong>Server[200]Success</strong>, a discord server dedicated to help beginners create and contribute to open-source projects.
