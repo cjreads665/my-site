@@ -35,7 +35,7 @@ const top = [
 
 const allProjects = [
   {
-    name: "soft.tech",
+    name: "soft.tech [discontinued]",
     description:
       "A full fledged blog application that allows user to view, like, comment, sign up and much more. User can login to their account and change details such as bio, name,password and email. An account will allow the user to favourite articles. It' also allow users to post their own articles ",
     glink: "https://github.com/ReallyCoolProjects/soft.dev",
