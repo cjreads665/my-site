@@ -1,5 +1,6 @@
 import React from "react";
 import Featured from "./Featured";
+import Skills from "./Skills";
 
 const Home = () => {
   return (
@@ -8,18 +9,20 @@ const Home = () => {
         building quality products that drive{" "}
         <span className="text-[#08ff17]">results</span>
       </h1>
-      <section className="leading-relaxed text-xl p-1 flex flex-col md:flex-row md:justify-between w-full">
-      <img src="https://media.giphy.com/media/jOmQmJkjcvB3Bc8CRb/giphy.gif" alt="" className="mt-4 text-center md:w-[15rem]" />
-      <p className="md:ml-8">
+      <div className="leading-relaxed text-xl p-1 flex flex-col md:flex-row md:justify-between w-full lg:justify-around h-full">
+      <img src="https://media.giphy.com/media/jOmQmJkjcvB3Bc8CRb/giphy.gif" alt="" className="mt-4 text-center md:w-[35rem] " />
+      <div className="flex flex-col h-full justify-between">
+        <p>
         <br />
         Hello!👋 
-        <br/> I'm Shahid(aka CJ), a Web/UI developer. <br /> I
-        specialize in Front End technologies such as React that provide great
-        user experience.
-
-      Currently exploring the web3 space.</p>
-      </section>
-      
+        <br/> I'm Shahid(aka CJ), an Automation Engineer. <br /> I
+        specialize in Front-End and Back-end testing automation technologies as well as DevOps Processes.
+        <br />
+      Currently exploring the DevOps/ML/AI space.
+        </p>
+      {/* <Skills/> */}
+      </div>
+      </div>
       <Featured></Featured>
     </div>
   );
