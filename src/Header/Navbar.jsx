@@ -16,7 +16,7 @@ const Navbar = () => {
           <li>HOME</li>
         </NavLink>
         <a
-          href="https://docs.google.com/document/d/e/2PACX-1vTiNPvUWTpeaQenNPeHraaGVRnOLSHogaCdYdk-derpoNUQ6yB7TGsvK3XtWGbgYnay3bZiRsvYyRje/pub"
+          href="https://docs.google.com/document/d/1kJ8PMub-TzWSeGvC_2reHRALjgIuH6_DDsa37xt-c7w/edit?usp=sharing"
           target="_blank"
         >
           <li>RESUME</li>
